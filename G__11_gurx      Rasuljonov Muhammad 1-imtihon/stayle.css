@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu";
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+body {
+  background-color: rgb(71, 61, 112);
+}
+a {
+  box-shadow: rgb(123, 138, 154) 0px 20px 30px -10px;
+  text-shadow: 6px 5px 4px rgba(0, 0, 0, 0.96);
+}
+a:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px,
+    rgba(240, 46, 170, 0.05) 25px 25px;
+}
+.home {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.home .resig {
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid wheat;
+  color: white;
+}
+.home .z {
+  color: white;
+}
+.home a {
+  color: rgb(181, 159, 159);
+}
+.katta {
+  width: 400px;
+  position: absolute;
+  top: 55px;
+  left: 800px;
+  z-index: 1;
+}
+.hy {
+  display: flex;
+  position: relative;
+  gap: 5rem;
+}
+.chiziq {
+  position: absolute;
+  width: 400px;
+  right: 0px;
+  top: 50px;
+}
+.cj {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+.cj,
+h1,
+p,
+a {
+  color: wheat;
+}
+.box h3 {
+  color: rgb(188, 197, 205);
+}
+.cj,
+p {
+  color: rgb(156, 144, 122);
+}
+.cj a {
+  padding: 8px 20px;
+  background: #fc3867;
+  border-radius: 87px;
+  width: 90px;
+}
+.hello {
+  margin-top: 700px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  height: 200px;
+  align-items: center;
+}
+.hello hr {
+  height: 60px;
+}
+.xxx {
+  display: flex;
+  justify-content: space-around;
+}
+.dd {
+  margin-left: 150px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.uctalik {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.uctalik .ikita {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.wart {
+  text-align: center;
+}
+.wart h3,
+p {
+  color: wheat;
+}
+.wart p {
+  color: wheat;
+}
+.qwqw {
+  display: flex;
+  justify-content: space-evenly;
+}
+.qwqw .cccc {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.qwqw .cccc {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.cccc img {
+  background-color: #fc3867;
+  padding: 15px;
+  border-radius: 50%;
+}
+.cccc,
+h4,
+p {
+  color: black;
+}
+.cccc span {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.nvdffn {
+  text-align: center;
+}
+.nvdffn h4 {
+  color: #fff;
+  padding: 5px;
+}
+.nvdffn p {
+  color: #fff;
+  padding: 5px;
+}
+.ikita p {
+  color: #fff;
+}
+.ikita h3 {
+  color: #fff;
+}
+.ll {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.xxx p {
+  color: #fff;
+}
+.cj p {
+  color: #fff;
+}
+.ll span {
+  display: flex;
+  gap: 3rem;
+  margin-top: 30px;
+}
+.fgfg {
+  text-align: center;
+}
+.fgfg h2 {
+  color: #fff;
+}
+.fgfg p {
+  color: #fff;
+}
+.boxz1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.boz2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  height: 400px;
+  width: 300px;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.boz2 .ggg {
+  border: 1px solid black;
+  padding: 8px 20px;
+  border-radius: 20px;
+  color: #000000;
+}
+.boz2 .gggg {
+  background-color: #fc3867;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+.boz2 h2 {
+  font-size: 30px;
+}
+.getrakr {
+  display: flex;
+  background-color: #fff;
+  height: 200px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.getrakr a {
+  color: #000000;
+  padding: 10px 20px;
+  background-color: #fc3867;
+  border-radius: 80px;
+  color: #fff;
+}
+.getrakr h1 {
+  color: #000000;
+}
+.helloooo {
+  background-color: #3b3535;
+  width: 1250px;
+  height: 350px;
+  margin-left: 30px;
+}
+.gfdghg {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.rrr {
+  display: flex;
+  gap: 1rem;
+}
+.ttt {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 50px;
+}
+
+.helloooo hr {
+  width: 1200px;
+  margin-left: 20px;
+}
+.helloooo p {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.helloooo h2 {
+  color: #fff;
+}
